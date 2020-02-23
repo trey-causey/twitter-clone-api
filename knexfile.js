@@ -7,7 +7,7 @@ module.exports = {
     connection: {
       database: 'twitter_clone',
       user: 'twitter_user',
-      password: 'password'
+      password: 'Passw0rd!'
     }
   },
 
