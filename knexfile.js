@@ -1,13 +1,16 @@
 // Update with your config settings.
-
+const pg = require("pg");
+        pg.defaults.ssl = false;
 module.exports = {
 
   development: {
     client: 'postgresql',
-    connection: {
-      database: 'twitter_clone',
-      user: 'twitter_user',
-      password: 'Passw0rd!'
+    connection: { 
+      URI: "postgres://auykhabvswezzt:f961ca9094fc34f0b79f9b8f169ef0395532071701ccd0a2e1c1dabd0160e95b@ec2-52-86-33-50.compute-1.amazonaws.com:5432/d1bp24nhp6dpam",
+      host: 'ec2-52-86-33-50.compute-1.amazonaws.com',
+      database: 'd1bp24nhp6dpam',
+      user: 'auykhabvswezzt',
+      password: "f961ca9094fc34f0b79f9b8f169ef0395532071701ccd0a2e1c1dabd0160e95b"
     }
   },
 
