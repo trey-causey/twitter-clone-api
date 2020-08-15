@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/sitejsvh/node1.sitesystemhub.com/
+    - export DEPLOYPATH=/home/sitejsvh/node3.sitesystemhub.com/nodejsapp
     - /bin/cp -r * $DEPLOYPATH
