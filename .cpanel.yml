@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/sitejsvh/node3.sitesystemhub.com/
+    - export DEPLOYPATH=/home/sitejsvh/twitter-clone-api/
     - /bin/cp -r * $DEPLOYPATH

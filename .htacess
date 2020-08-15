@@ -1,6 +1,0 @@
-DocumentRoot /home/sitejsvh/node1.sitesystemhub.com/twitter-clone-api
-# Use server.js as the startup file (entry point file) for
-# your Node.js application, instead of the default app.js
-PassengerStartupFile app.js
-PassengerAppType node
-PassengerAppRoot /home/sitejsvh/node1.sitesystemhub.com
