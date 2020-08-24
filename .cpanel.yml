@@ -2,4 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sitejsvh/twitter-clone-api/
-    - /bin/cp -r * $DEPLOYPATH
+    - /bin/cp app.js $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp knexfile.js $DEPLOYPATH
+    - /bin/cp -R migrations $DEPLOYPATH
