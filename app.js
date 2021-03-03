@@ -8,8 +8,9 @@ const app = express();
 
 const bodyParser = require("body-parser");
 
-app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
 
 app.get('/', async (req, res) => {
   const posts = await knex("posts");
@@ -29,4 +30,4 @@ app.post("/tweet", async (req, res) => {
 
 const port = process.env.PORT || 5000
 
-app.listen(port, () => console.log("Server started!"))
+app.listen(port, () => console.log('Server started on port ${port} '))
